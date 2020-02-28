@@ -9,3 +9,4 @@ Route::get('/b', function () {
 
 Route::get('getBirthdayPeople', 'BirthdayController@getBirthdayPeople');
 Route::get('congratulate', 'BirthdayController@congratulate');
+Route::get('ddd', 'BirthdayController@congratulate');
