@@ -1,0 +1,322 @@
+* {
+    /*font-family:  "Arial" !important;*/
+}
+
+a{
+    color: #34bbe9;
+}
+
+/* SideBar*/
+.webix_sidebar {
+    background: #ECEFF1;
+}
+
+.webix_sidebar .webix_tree_item {
+    color: #454545;
+    height: 44px;
+    line-height: 43px;
+}
+
+.webix_sidebar .webix_scroll_cont > .webix_tree_leaves {
+    padding: 0;
+}
+
+.webix_sidebar .webix_tree_leaves .webix_tree_leaves {
+    margin-left: 0px;
+}
+
+.webix_sidebar_selected,
+.webix_sidebar_expanded .webix_tree_item:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.webix_sidebar .webix_tree_item.webix_selected,
+.webix_sidebar .webix_tree_item.webix_selected span {
+    background-color: #F4F5F9;
+    padding-right: 0;
+}
+
+.webix_sidebar .webix_tree_branch_1 .webix_tree_item {
+    padding-left: 44px;
+}
+
+.webix_sidebar .webix_tree_branch_1 > .webix_tree_item {
+    height: 44px;
+    line-height: 44px;
+    padding-left: 0;
+}
+
+.webix_sidebar .webix_tree_branch_1 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.webix_sidebar .webix_tree_item.webix_selected span,
+.webix_sidebar .webix_tree_item span {
+    margin: 0;
+    padding: 0px;
+}
+
+.webix_icon.webix_sidebar_icon {
+    width: 44px;
+    text-align: center;
+}
+
+span.webix_sidebar_dir_icon {
+    float: right;
+    line-height: inherit;
+}
+
+/*SubMenu (Popup) */
+.webix_sidebar_popup {
+    border: none !important;
+    box-shadow: 2px 3px 3px #ddd;
+}
+
+.webix_sidebar_popup,
+.webix_sidebar_popup .webix_list_item {
+    border-radius: 0;
+}
+
+.webix_sidebar_popup_right {
+    box-shadow: -1px 3px 3px #ddd;
+}
+
+.webix_sidebar_popup_list.webix_sidebar_popup_left .webix_icon {
+    float: right;
+    line-height: inherit;
+    width: 7px;
+}
+
+/*SubMenu: title*/
+.webix_sidebar_popup_title {
+    background: #ECEFF1;
+}
+
+.webix_sidebar_popup_title.webix_selected {
+    border-left-color: #F4F5F9;
+    background: #F4F5F9;
+}
+
+.webix_sidebar_popup_title .webix_template {
+    line-height: 40px;
+    padding: 0 10px;
+    border: 1px solid #E5E5E5;
+    border-left: none;
+}
+
+.webix_sidebar_selected.webix_sidebar_popup_title .webix_template {
+    background: rgba(0, 0, 0, 0.03);
+    border-left: none;
+}
+
+.webix_sidebar_popup_list .webix_list_item {
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+/*SubMenu: list*/
+.webix_sidebar_popup_list .webix_list_item:first-child {
+    border-top: 1px solid #E5E5E5;
+}
+
+.webix_sidebar_popup_list .webix_list_item:hover {
+    background: #f6f9fb;
+}
+
+.webix_sidebar_popup_list .webix_list_item.webix_selected:hover {
+    background: #F4F5F9;
+}
+
+.webix_menu .webix_list_item.webix_sidebar_selected {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.webix_menu .webix_list_item.webix_sidebar_selected:hover {
+    background: rgba(0, 0, 0, 0.02) !important;
+}
+
+.user_name {
+    font-size: 16px;
+}
+
+.custom_sidebar {
+    background-color: #ffffff !important;
+}
+
+.calculator_window .webix_template {
+    padding: 0 !important;
+}
+
+.answered {
+    background-color: #bfc1d9;
+}
+
+.building_icon {
+    font-size: 45px;
+    color: #2ea8d7;
+    float: left;
+}
+
+.examsToolbar {
+    background-color: #34bbe9;
+    color: #ffffff !important;
+}
+
+.toolbarcolor {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+.examsDatatable {
+    margin-top: 0 !important;
+}
+
+.account_icon_style {
+    color: #000;
+    font-size: 25px;
+}
+
+.admin_div_login {
+    height: 100% !important;
+    background-color: #cbe4ff !important;
+}
+
+.count_selected_questions {
+    padding-left: 0 !important;
+    text-align: center !important;
+}
+
+.tutorial {
+    height: 800px;
+    width: auto;
+    text-align: center;
+    overflow: auto;
+    padding: 10px;
+}
+.tutorial p{
+    text-align: justify;
+    margin-top: 10px;
+}
+.flagged{
+    background-color: #ff0000;
+    color: #FFFFFF;
+}
+.my_custom_mark{
+    background-color: yellow;
+    display: inline;
+}
+.row_marked{
+    background-color: yellow;
+}
+
+.close_window_button button{
+    border-radius: 50% !important;
+    width: 25px !important;
+    height: 25px !important;
+    background: #e44c4c !important;
+    color: #fff !important;
+}
+
+.close_window_button span{
+    font-size: 20px !important;
+    color: #fff !important;
+    margin-left: 3px !important;
+    margin-bottom: -1px !important;
+}
+
+.instruction_window_button button{
+    background: #52a3dc !important;
+    color: #fff !important;
+}
+
+.instruction_window_button span{
+    font-size: 20px !important;
+    color: #fff !important;
+    margin-left: 3px !important;
+    margin-bottom: -1px !important;
+}
+
+.comment_button button{
+    background: #e44c4c !important;
+    color: #fff !important;
+}
+
+.comment_button button:hover{
+    background: #AA393D !important;
+}
+
+.comment_button span{
+    font-size: 20px !important;
+    color: #fff !important;
+    margin-left: 3px !important;
+    margin-bottom: -1px !important;
+}
+
+
+.empty_line{
+    border-bottom: 1px dotted #CCD7E6 !important;
+    margin-bottom: 5px !important;
+}
+
+.result_waiting {
+    background-color: #e8e0ce;
+    border-bottom: 1px solid white !important;
+}
+
+.result_commented_own {
+    background-color: #dfe5cc;
+    border-bottom: 1px solid white !important;
+}
+
+.result_confirmed {
+    background-color: #ceeace;
+    border-bottom: 1px solid white !important;
+}
+
+
+.form_result_view .webix_disabled {
+    background-color: #ffffff52;
+    opacity: 0.6;
+}
+
+.result_template_bold{
+    font-weight: 500;
+}
+
+.result_template_val{
+    font-weight: 500;
+    text-align: center;
+    line-height: 33px;
+}
+
+.result_template_total {
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.temp_lined_form {
+    position: relative;
+    width: 100%;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.temp_content {
+    height: 100%;
+    position: absolute;
+}
+
+.temp_lines {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.temp_line {
+    width: 100%;
+    height: 22px;
+    border-bottom: 1px solid #b5b3b3;
+}
+
+

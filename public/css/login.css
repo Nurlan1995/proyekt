@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+    background-image: url("../img/bg.jpeg") !important;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login_button button {
+    text-align: center !important;
+    background: #1CA0C1;
+    color: #fff;
+}
+
+.login_button button:hover {
+    background: #0e6f87;
+}
+
+.login_button button span {
+    color: #fff !important;
+}
+
+.webix_win_head {
+    border: none;
+    border-top: 5px solid #1CA0C1;
+}
